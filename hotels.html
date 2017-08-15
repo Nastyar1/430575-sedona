@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <img src="img/index-logo.svg" alt="Логотип City of Sedona">
+        <ul class="sait-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo.html">Фото и видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotel.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
+
+  <main class="container">
+  <section class="filters">
+    <h2 class="visually hidden">Hotel filter</h2>
+    <form class="filter" method="get" action="https://echo.ahtmlacademy.ru">
+      <fieldset>
+        <legend>Инфраструктура:</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="pool" checked>
+            Бассейн
+          </li>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="parking place">
+            Парковка
+          </li>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="wi-fi">
+            Wi-fi
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Тип жилья</legend>
+        <ul>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="hotel" checked>
+            Гостиница
+          </li>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="motel" checked>
+            Мотель
+          </li>
+          <li class="filter-option">
+            <input class="filter-input" type="checkbox" name="apartments" checked>
+            Апартаменты
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+        <legend>Стоимость в сутки(р):</legend>
+        <div class="filter-button">
+          <input type="text" placeholder="от 0"><input type="text" placeholder="до 3000">
+        </div>
+        <input class="filter-slider" type="range" />
+      </fieldset>
+      <button type="submit" class="filter-button-button">Показать</button>
+    </form>
+   </section>
+   <section class="main-sorting">
+     <div class="main-sorting-list">
+       <h2>Найдено: 3</h2>
+       <h4>Сортировка:</h4>
+       <ul class="main-sorting-list-list">
+         <Li class="list-item-price">По цене</Li>
+         <Li class="list-item">По типу</Li>
+         <Li class="list-item">По рейтингу</Li>
+       </ul>
+     </div>
+     <div class="main-sorting-hotels">
+       <img src="#" width="133" height="87" alt="amara resort spa">
+       <h2>Amara resort & spa</h2>
+       <p>Гостиница от 400 р.</p>
+       <a  class="main-sorting-button" href="#">Подробнее</a>
+       <a  class="main-sorting-button" href="#">Забронировать</a>
+       <div class="button-rating"><p class="rating">Рейтинг: 8,5</p></div>
+    </div>
+    <div class="main-sorting-hotels">
+      <img src="#" width="133" height="87" alt="desert quali inn">
+      <h2>Desert quail inn</h2>
+      <p>Мотель от 3000 р.</p>
+      <a  class="main-sorting-button" href="#">Подробнее</a>
+      <a  class="main-sorting-button" href="#">Забронировать</a>
+      <div class="button-rating"><p class="rating">Рейтинг: 8,9</p></div>
+   </div>
+   <div class="main-sorting-hotels">
+     <img src="#" width="133" height="87" alt="vilas at poco diablo">
+     <h2>vilas at poco diablo</h2>
+     <p>Апартаменты от 2000 р.</p>
+     <a  class="main-sorting-button" href="#">Подробнее</a>
+     <a  class="main-sorting-button" href="#">Забронировать</a>
+     <div class="button-rating"><p class="rating">Рейтинг: 9,2</p></div>
+  </div>
+   </section>
+  </main>
+
+  <footer class="main-footer">
+    <a class="visit" href="#">#visitsedona</a>
+    <div class="footer-social">
+      <ul>
+        <li><a class="social-button" href="#">Твитер</a></li>
+        <li><a class="social-button" href="#">Фейсбук</a></li>
+          <li><a class="social-button" href="#">Кнопка</a></li>
+      </ul>
+    </div>
+    <p class="footer-copyright">
+      websait by
+        <a class="button" href="#">Html academy</a>
+     </p>
+    </footer>
