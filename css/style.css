@@ -1,1 +1,20 @@
 style.css
+body{
+  font-family: "PTSansRegulars";
+}
+
+.features-note-caption{
+  font-family: "PTSansRegularsBold";
+  color: rgb(255, 255, 255,);
+  line-height: 21pt;
+  font-size: 21pt;
+  font-style: bold;
+}
+
+.feature-icon-caption{
+  font-family: "PTSansRegularsBold";
+  color: rgb(0, 0, 0,);
+  line-height: 21pt;
+  font-size: 21pt;
+  font-style: bold;
+}
