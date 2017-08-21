@@ -1,11 +1,13 @@
-style.css
+/*style.css*/
 body{
-  font-family: "PTSansRegulars";
+  font-family: "PTSansRegulars",
+               "PTSans",
+               "PTSansBold";
 }
 
 .features-note-caption{
   font-family: "PTSansRegularsBold";
-  color: rgb(255, 255, 255,);
+  color: #ffffff;
   line-height: 21pt;
   font-size: 21pt;
   font-style: bold;
@@ -13,7 +15,7 @@ body{
 
 .feature-icon-caption{
   font-family: "PTSansRegularsBold";
-  color: rgb(0, 0, 0,);
+  color: #000000;
   line-height: 21pt;
   font-size: 21pt;
   font-style: bold;
