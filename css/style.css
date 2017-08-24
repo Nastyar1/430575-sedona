@@ -1,22 +1,94 @@
 /*style.css*/
-body{
-  font-family: "PTSansRegulars",
-               "PTSans",
-               "PTSansBold";
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 
-.features-note-caption{
-  font-family: "PTSansRegularsBold";
-  color: #ffffff;
+.features-note-caption {
+  color: #fffff;
   line-height: 21pt;
   font-size: 21pt;
   font-style: bold;
 }
 
-.feature-icon-caption{
-  font-family: "PTSansRegularsBold";
+.feature-icon-caption {
+  color: #00000;
+  line-height: 21pt;
+  font-size: 21pt;
+  font-style: bold;
+}
+
+a {
+  text-decoration: none;
+  font-style: bold;
+}
+
+.main-header{
+  font-size: 14px;
+  line-height: 26px;
   color: #000000;
-  line-height: 21pt;
-  font-size: 21pt;
-  font-style: bold;
+  background-color: #ffffff;
 }
+.sait-navigation{
+  list-style: none;
+
+}
+.sait-navigation a{
+  color:#000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.sait-navigation a:hover{
+  color:#81b3d2;
+}
+.sait-navigation a:active{
+  color:#dedede;
+}
+
+
+.description-bold {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.description-lowercase{
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.main-description{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.features-note-block{
+  color:#ffffff;
+  text-align: center;
+  background-color: #81b3d2;
+}
+.features-note-caption{
+  color:#ffffff;
+}
+.feature-list{
+  font-size: 14px;
+  line-height: 21px;
+  list-style: none;
+  text-align: center;
+}
+
+.feature-list h3{
+  font-size: 21px;
+  line-height: 21px;
+  }
+  .interest h3{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .interest{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+  }

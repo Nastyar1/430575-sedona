@@ -3,12 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <nav class="main-navigation">
-      <img src="img/index-logo.svg" alt="Логотип City of Sedona">
+      <img src="img/logo.png" alt="Логотип City of Sedona">
       <ul class="sait-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="photo.html">Фото и видео</a></li>
@@ -19,73 +21,80 @@
   </header>
   <main class="container">
     <section class="main-logo">
-      <img src="img/index-logo.svg" alt="Логотип welcom sedona">
+      <img src="img/foto1.jpg" alt="Логотип welcom sedona">
     </section>
 
     <section class="main-description">
-      <p class="description-bold">Седона — небольшой городок в Аризоне,
+      <p class="description-bold">Седона — небольшой городок в Аризоне,<br>
         заслуживающий большего!</p>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <p class-"description-lowercase">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
 
       <section class="features-note">
+        <div class="features-note-block">
         <h3 class="features-note-caption">Настоящий городок</h3>
         <p>№1</p>
+        <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
+        </div>
         <figure class="feature-gallery">
-          <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
-          <a href="#"><img src="#" width="793" height="255" alt="background"/></a>
+          <a href="#"><img src="img/foto2.jpg" width="793" height="255" alt="background"/></a>
         </figure>
       </section>
 
       <section class="feature-icon">
         <ul class="feature-list">
           <li class="feature-icon-list feature-item-house">
-            <h3 class="feature-icon-caption">Жилье</h3>
-            <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <img src="img/icon-1.svg" width="70" height="70" alt="icon house">
+          <h3 class="feature-icon-caption">Жилье</h3>
+            <p>Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
           </li>
           <li class="feature-icon-list feature-item-food">
+            <img src="img/icon-3.svg" width="70" height="70" alt="icon house">
             <h3 class="feature-icon-caption">Еда</h3>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            <p>Всегда заказывайте фирменный бургер,<br> вы не разочаруетесь!</p>
           </li>
           <li class="feature-icon-list feature-item-souvenirs">
+            <img src="img/icon-2.svg" width="70" height="70" alt="icon house">
             <h3 class="feature-icon-caption">Сувениры</h3>
-            <p>Не только китайского, но и местного производства!</p>
+            <p>Не только китайского, но и местного<br> производства!</p>
           </li>
         </ul>
       </section>
 
       <section class="feature-note">
         <figure class="feature-gallery">
-          <a href="#"></a><img src="#" width="793" height="255" alt="background"/></a>
+          <a href="#"></a><img src="img/foto3.jpg" width="793" height="255" alt="background"/></a>
         </figure>
+        <div class="features-note-block">
         <h3 class="features-note-caption">Там есть мост дьявола</h3>
         <p>№2</p>
         <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+      </div>
       </section>
 
       <section class="feature-attraction">
         <ul class="feature-list">
           <li class="feature-item">
-            <h3>Небольшая площадь</h3>
+            <h3>Небольшая<br>площадь</h3>
             <p>№3</p>
-            <p>Все достопримечательности находятся очень близко</p>
+            <p>Все достопримечательности<br> находятся очень близко</p>
           </li>
           <li class="feature-item">
-            <h3>Красивая дорога</h3>
+            <h3>Красивая<br>дорога</h3>
             <p>№4</p>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            <p>Ехать в Седону из Лас-Вегаса совсем<br> не скучно!</p>
           </li>
           <li class="feature-item">
-            <h3>Мало туристов</h3>
+            <h3>Мало<br>туристов</h3>
             <p>№5</p>
-            <p>Большинство едет в гранд каньон и толпится там</p>
+            <p>Большинство едет в гранд каньон и<br> толпится там</p>
           </li>
         </ul>
       </section>
 
       <section class="interest">
-        <b>Заинтересовались?</b>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <h3>Заинтересовались?</h3>
+        <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <a class="modal-search-button" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
