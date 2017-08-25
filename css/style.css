@@ -82,17 +82,103 @@ a {
 .feature-list h3{
   font-size: 21px;
   line-height: 21px;
-  }
-  .interest h3{
-    font-size: 30px;
-    line-height: 36px;
-  }
-  .interest{
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-  }
+}
+.interest h3{
+  font-size: 30px;
+  line-height: 36px;
+}
+.interest{
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
 
-  .modal-search-button{
+.interest-button{
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+  background-color: #766357;
+  color: #ffffff;
+}
 
-  }
+.interest-button:hover{
+  background-color: #604e43;
+}
+
+.interest-button:active{
+  background-color: #503e33;
+  color: rgba;
+
+}
+
+.modal-search input:{
+  background-color: #f2f2f2;
+  font-size: 14px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+
+.modal-search input:hover{
+  background-color: #ebebeb;
+}
+.modal-search input:active{
+  background-color: transparent;
+  border: 2px solid:#e5e5e5;
+}
+.modal-search-text::-webkit-input-placeholder{
+  font-size: 14px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+
+.modal-search label{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+}
+.modal-search-button{
+  background-color: #81b3d2;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.modal-search-button:hover{
+  background-color: #669ec0;
+}
+
+.modal-search-button:active{
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.visit{
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-copyright{
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+
+
+.filters{
+  background-image: url("../img/fon.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+
+}
