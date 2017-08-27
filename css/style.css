@@ -173,11 +173,25 @@ a {
   text-transform: uppercase;
 }
 
-
+/*catalog*/
 
 .filters{
   background-image: url("../img/fon.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
+}
 
+.filters legend{
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.filters label{
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  font-weight: normal;
 }
