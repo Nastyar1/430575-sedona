@@ -210,7 +210,6 @@ a {
   font-family: PT Sans;
 }
 
-
 .main-sorting-list h2{
   font-size: 21px;
   line-height: 26px;
@@ -236,18 +235,18 @@ a {
 }
 
 .list-item a{
-    color: rgba(0, 0, 0, 0.3);
-    border-bottom: 1px #81b3d2 dotted;
+  color: rgba(0, 0, 0, 0.3);
+  border-bottom: 1px #81b3d2 dotted;
 }
 
 .list-item a:hover{
-    color: #81b3d2;
-    border-bottom: 1px #81b3d2 dotted;
+  color: #81b3d2;
+  border-bottom: 1px #81b3d2 dotted;
 }
 
 .list-item a:focus{
-    color: #000000;
-    border-bottom: 1px #81b3d2 dotted;
+  color: #000000;
+  border-bottom: 1px #81b3d2 dotted;
 }
 
 .main-sorting-hotels h2 a{
