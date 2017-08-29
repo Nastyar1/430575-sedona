@@ -9,15 +9,18 @@
 </head>
 <body>
   <header class="main-header">
+    <div class="container">
     <nav class="main-navigation">
-      <img src="img/logo.png" alt="Логотип City of Sedona">
-      <ul class="sait-navigation">
+      <a class="main-navigation-logo" href="catalog.html"><img src="img/logo.png" alt="Логотип City of Sedona"></a>
+      <ul class="site-navigation">
         <li><a href="info.html">Информация</a></li>
         <li><a href="photo.html">Фото и видео</a></li>
+        <>
         <li><a href="map.html">Карта штата</a></li>
         <li><a href="hotel.html">Гостиницы</a></li>
       </ul>
-    </nav>
+      </div>
+      </nav>
   </header>
   <main class="container">
     <section class="main-logo">
@@ -27,10 +30,11 @@
     <section class="main-description">
       <p class="description-bold">Седона — небольшой городок в Аризоне,<br>
         заслуживающий большего!</p>
-        <p class-"description-lowercase">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <p class="description-lowercase">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
 
       <section class="features-note">
+        <div class="features-note-container">
         <div class="features-note-block">
         <h3 class="features-note-caption">Настоящий городок</h3>
         <p>№1</p>
@@ -39,6 +43,7 @@
         <figure class="feature-gallery">
           <a href="#"><img src="img/foto2.jpg" width="793" height="255" alt="background"/></a>
         </figure>
+        </div>
       </section>
 
       <section class="feature-icon">
@@ -63,7 +68,7 @@
 
       <section class="feature-note">
         <figure class="feature-gallery">
-          <a href="#"></a><img src="img/foto3.jpg" width="793" height="255" alt="background"/></a>
+          <a href="#"><img src="img/foto3.jpg" width="793" height="255" alt="background"/></a>
         </figure>
         <div class="features-note-block">
         <h3 class="features-note-caption">Там есть мост дьявола</h3>
@@ -103,14 +108,14 @@
           <label>Дата заезда: <input class="modal-search-text" type="text" name="date" placeholder="24 апреля 2017"></label>
           <label>Дата выезда: <input class="modal-search-text" type="text" name="date" placeholder="4 июля 2017"></label>
           <label>Взрослые:
-            <button class="modal-search-sign" type="button">-</button>
+            <a href="#" class="modal-search-sign">-</a>
             <input class="modal-search-text" type="text" name="date" placeholder="2">
-            <button class="modal-search-sign" type="button">+</button>
+            <a href="#" class="modal-search-sign">+</a>
           </label>
           <label>Дети:
-            <button class="modal-search-sign" type="button">-</button>
+            <a class="modal-search-sign" href="#">-</a>
             <input class="modal-search-text" type="text" name="date" placeholder="0">
-            <button class="modal-search-sign" type="button">+</button>
+            <a class="modal-search-sign" href="#">+</a>
           </label>
           <button class="modal-search-button" type="submit">Найти</button>
         </form>
