@@ -322,11 +322,10 @@ a {
   display: flex;
   width: 1200px;
   justify-content: space-around;
+  align-items: center;
 }
 
-.site-navigation li{
-text-align: center;
-}
+
 
 .container{
   width: 1200px;
@@ -337,16 +336,29 @@ text-align: center;
   .main-navigation-logo{
     position: absolute;
     top: 0px;
-    align-items: center;
+    margin: 0 auto;
     width:37px;
     height: 70px;
   }
 
-
-
-
-
 .features-note-container{
+  display: flex;
+  margin:0;
+  padding:0;
+}
+
+.description-bold{
+  padding: 0;
+  margin: 0;
+}
+
+.feature-list{
+  display: flex;
+  margin:0;
+  padding:0;
+}
+
+.features-note-block{
   display: flex;
   margin:0;
   padding:0;
