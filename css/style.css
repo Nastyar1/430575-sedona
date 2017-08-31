@@ -68,7 +68,9 @@ a {
   color:#ffffff;
   text-align: center;
   background-color: #81b3d2;
+  flex-direction: column;
 }
+
 .features-note-caption{
   color:#ffffff;
 }
@@ -171,7 +173,11 @@ a {
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
-}
+  }
+
+  .footer-social ul{
+    list-style-type: none;
+  }
 
 /*catalog*/
 
@@ -304,6 +310,10 @@ a {
   background-color: #f2f2f2;
 }
 
+.feature-attraction{
+  background-color: #eeeeee;
+}
+
 /*setki*/
 
 .main-navigation{
@@ -331,18 +341,20 @@ a {
   width: 1200px;
   margin: 0 auto;
   padding: 0 auto;
-  }
+}
 
-  .main-navigation-logo{
-    position: absolute;
-    top: 0px;
-    margin: 0 auto;
-    width:37px;
-    height: 70px;
-  }
+.main-navigation-logo{
+  position: absolute;
+  top: 0px;
+  margin: 0 auto;
+  width:37px;
+  height: 70px;
+}
 
 .features-note-container{
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   margin:0;
   padding:0;
 }
@@ -354,12 +366,92 @@ a {
 
 .feature-list{
   display: flex;
-  margin:0;
+  margin:60px;
   padding:0;
 }
 
 .features-note-block{
   display: flex;
+  text-align: center;
+  width: 280px;
+  min-height: 138px;
+  margin:0;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  padding-bottom: 65px;
+}
+
+.features-note-caption{
+  margin:0;
+  padding:0px;
+}
+
+
+
+.feature-gallery{
   margin:0;
   padding:0;
 }
+
+.main-description{
+  margin: 60px;
+  padding:0;
+}
+
+.feature-attraction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 256px;
+  margin: 0;
+}
+
+.feature-list{
+  justify-content: space-around;
+}
+
+.features-note-block p{
+  margin: 0;
+  padding: 0
+}
+
+.interest{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-search{
+  display: flex;
+  align-content:center;
+  width: 568px;
+  min-height: 396px;
+}
+
+
+.main-footer{
+  display: flex;
+  flex-direction: row;
+  width: 1200px;
+  min-height: 121px;
+  justify-content: center;
+}
+ .visit{
+   width: 137px;
+   min-height: 16px;
+ }
+
+ .footer-social{
+   width: 150px;
+   min-height: 48px;
+   margin-right: 230px;
+   margin-left: 256px;
+ }
+
+ .footer-copyright{
+   width: 197px;
+   min-height: 39px;
+   margin-left: auto;
+ }
