@@ -335,8 +335,6 @@ a {
   align-items: center;
 }
 
-
-
 .container{
   width: 1200px;
   margin: 0 auto;
@@ -349,6 +347,8 @@ a {
   margin: 0 auto;
   width:37px;
   height: 70px;
+  left: 50%;
+  margin-left: -68px;
 }
 
 .features-note-container{
@@ -374,17 +374,27 @@ a {
   display: flex;
   text-align: center;
   width: 280px;
-  min-height: 138px;
+  min-height: 146px;
   margin:0;
   padding-left: 60px;
   padding-right: 60px;
-  padding-top: 50px;
+  padding-top: 46px;
   padding-bottom: 65px;
+}
+
+.feature-gallery{
+display: block;
 }
 
 .features-note-caption{
   margin:0;
-  padding:0px;
+  padding-bottom: 29px;
+}
+
+.features-note-number{
+  display: inline-block;
+  margin:0;
+  padding-bottom: 32px;
 }
 
 
@@ -412,6 +422,11 @@ a {
   justify-content: space-around;
 }
 
+.feature-attraction ul{
+  width: 100%;
+  justify-content: space-around;
+}
+
 .features-note-block p{
   margin: 0;
   padding: 0
@@ -420,7 +435,20 @@ a {
 .interest{
   display: flex;
   flex-direction: column;
+  width: 1200px;
+  min-height: 291px;
   align-items: center;
+}
+
+.interest h3{
+margin: 0;
+padding-top: 59px;
+padding-bottom: 38px;
+}
+
+.interest p{
+  margin: 0;
+  padding-bottom: 52px;
 }
 
 .modal-search{
@@ -430,7 +458,6 @@ a {
   min-height: 396px;
 }
 
-
 .main-footer{
   display: flex;
   flex-direction: row;
@@ -438,6 +465,7 @@ a {
   min-height: 121px;
   justify-content: center;
 }
+
  .visit{
    width: 137px;
    min-height: 16px;
@@ -453,5 +481,12 @@ a {
  .footer-copyright{
    width: 197px;
    min-height: 39px;
+ }
 
+ .interest-button{
+   display: flex;
+   width: 568px;
+   min-height: 86px;
+   justify-content: center;
+   align-items: center;
  }
