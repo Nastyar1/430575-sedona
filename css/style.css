@@ -502,3 +502,47 @@ min-height: 396px;
   width: 1200px;
   min-height: 218px;
 }
+
+.filter{
+  display: flex;
+  justify-content: center;
+}
+
+.filters fieldset{
+  border: 0;
+  outline: 0;
+}
+
+.main-sorting-list{
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  min-height: 87px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.main-sorting-hotels{
+display: flex;
+align-content:center;
+  width: 1200px;
+  min-height: 152px;
+  border-bottom: 2px solid #f6f6f6;
+}
+
+.main-sorting-hotels img{
+  width: 135px;
+  min-height: 90px;
+  padding-left: 72px;
+  padding-top: 31px;
+}
+
+.main-sorting-hotels h2{
+  margin: 0;
+  padding-top: 23px;
+  padding-left: 30px;
+}
+
+.main-sorting-hotels p{
+  margin: 0;
+  padding-left: 0px;
+}
