@@ -227,6 +227,7 @@ a {
   font-size: 12px;
   line-height: 18px;
   color: #000000;
+  font-weight: normal;
 }
 
 .main-sorting-list ul{
@@ -398,6 +399,20 @@ a {
   padding:0;
 }
 
+.filter{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.infrastructure{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 31px;
+  margin-left: 73px;
+  padding: 0;
+}
+
 .main-description{
   margin: 60px;
   padding:0;
@@ -515,10 +530,29 @@ min-height: 396px;
 
 .main-sorting-list{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  align-items: center;
   width: 1200px;
   min-height: 87px;
   border-bottom: 2px solid #f6f6f6;
+  margin-left: 73px;
+}
+
+.main-sorting-list h4{
+  margin-left: 50px;
+}
+
+.main-sorting-list-list{
+  display: flex;
+  justify-content: center;
+}
+
+.list-item-price{
+  padding-right: 31px;
+}
+
+.list-item{
+  padding-right: 33px;
 }
 
 .main-sorting-hotels{
@@ -536,13 +570,66 @@ align-content:center;
   padding-top: 31px;
 }
 
-.main-sorting-hotels h2{
-  margin: 0;
-  padding-top: 23px;
-  padding-left: 30px;
-}
+
 
 .main-sorting-hotels p{
   margin: 0;
   padding-left: 0px;
+}
+
+.central-unit{
+  margin-top: 22px;
+  margin-left: 30px;
+height: 90px;
+}
+
+.central-unit h2{
+  margin: 0;
+
+}
+
+.main-sorting-hotels-description{
+  display: flex;
+  width: 259px;
+  height: 56px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  align-content: flex-start;
+}
+
+.main-sorting-hotels-description p{
+  padding-bottom: 10px;
+  padding-right: 28px;
+}
+
+.main-sorting-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 27px;
+  text-align: center;
+  margin-right: 6px;
+
+}
+
+.main-sorting-button-booking{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 142px;
+  height: 27px;
+}
+
+.chisel-rating{
+  margin-left: 524px;
+  margin-top: 90px;
+}
+
+.rating{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 28px;
 }
