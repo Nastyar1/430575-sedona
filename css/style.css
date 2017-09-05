@@ -182,10 +182,22 @@ a {
 /*catalog*/
 
 .filters{
+  display: flex;
   background-image: url("../img/fon.jpg");
+
   background-position: 0 0;
   background-repeat: no-repeat;
 }
+
+.filter-form{
+
+}
+
+.infrastructure{
+  margin-left: 73px;
+}
+
+
 
 .filters legend{
   font-size: 16px;
