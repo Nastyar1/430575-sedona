@@ -4,23 +4,23 @@
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
   <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 <body>
   <header class="main-header">
     <div class="container">
-    <nav class="main-navigation">
-      <a class="main-navigation-logo" href="catalog.html"><img src="img/logo.png" alt="Логотип City of Sedona"></a>
-      <ul class="site-navigation">
-        <li><a href="info.html">Информация</a></li>
-        <li><a href="photo.html">Фото и видео</a></li>
-        <li></li>
-        <li><a href="map.html">Карта штата</a></li>
-        <li><a href="hotel.html">Гостиницы</a></li>
-      </ul>
+      <nav class="main-navigation">
+        <a class="main-navigation-logo" href="catalog.html"><img src="img/logo.png" alt="Логотип City of Sedona"></a>
+        <ul class="site-navigation">
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="photo.html">Фото и видео</a></li>
+          <li></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotel.html">Гостиницы</a></li>
+        </ul>
       </div>
-      </nav>
+    </nav>
   </header>
   <main class="container">
     <section class="main-logo">
@@ -35,9 +35,9 @@
 
       <section class="features-note">
         <div class="features-note-block">
-        <h3 class="features-note-caption">Настоящий<br>городок</h3>
-        <p class="features-note-number">№1</p>
-        <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
+          <h3 class="features-note-caption">Настоящий<br>городок</h3>
+          <p class="features-note-number">№1</p>
+          <p>Седона — не атракцион для туристов, там течет своя жизнь</p>
         </div>
         <figure class="feature-gallery">
           <a href="#"><img src="img/foto2.jpg" width="793" height="257" alt="background"/></a>
@@ -48,8 +48,8 @@
       <section class="feature-icon">
         <ul class="feature-list">
           <li class="feature-icon-list feature-item-house">
-          <img src="img/icon-1.svg" width="70" height="70" alt="icon house">
-          <h3 class="feature-icon-caption">Жилье</h3>
+            <img src="img/icon-1.svg" width="70" height="70" alt="icon house">
+            <h3 class="feature-icon-caption">Жилье</h3>
             <p>Рекомендуем пожить в настоящем<br> мотеле, все как в кино!</p>
           </li>
           <li class="feature-icon-list feature-item-food">
@@ -67,13 +67,13 @@
 
       <section class="features-note">
         <figure class="feature-gallery">
-        <a href="#"><img src="img/foto3.jpg" width="793" height="255" alt="background"/></a>
+          <a href="#"><img src="img/foto3.jpg" width="793" height="255" alt="background"/></a>
         </figure>
         <div class="features-note-block">
-        <h3 class="features-note-caption">Там есть<br> мост дьявола</h3>
-        <p features-note-number>№2</p>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-      </div>
+          <h3 class="features-note-caption">Там есть<br> мост дьявола</h3>
+          <p features-note-number>№2</p>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>
       </section>
 
       <section class="feature-attraction">
@@ -107,20 +107,22 @@
       </div>
 
       <section class="modal-search">
-        <form action="#" method="post">
-          <label>Дата заезда: <input class="modal-search-text" type="text" name="date" placeholder="24 апреля 2017"></label>
+        <form class="modal-search-form" action="#" method="post">
+        <label>Дата заезда: <input class="modal-search-text" type="text" name="date" placeholder="24 апреля 2017"></label>
           <label>Дата выезда: <input class="modal-search-text" type="text" name="date" placeholder="4 июля 2017"></label>
-          <label>Взрослые:
-            <a href="#" class="modal-search-sign">-</a>
-            <input class="modal-search-text" type="text" name="date" placeholder="2">
-            <a href="#" class="modal-search-sign">+</a>
-          </label>
-          <label>Дети:
+
+            <label class="modal-search-adults">Взрослые:
+              <a href="#" class="modal-search-sign">-</a>
+              <input class="modal-search-counter" type="text" name="date" placeholder="2">
+              <a href="#" class="modal-search-sign">+</a>
+            </label>
+
+          <label class="modal-search-children">Дети:
             <a class="modal-search-sign" href="#">-</a>
-            <input class="modal-search-text" type="text" name="date" placeholder="0">
+            <input class="modal-search-counter" type="text" name="date" placeholder="0">
             <a class="modal-search-sign" href="#">+</a>
           </label>
-          <button class="modal-search-button" type="submit">Найти</button>
+        <button class="modal-search-button" type="submit">Найти</button>
         </form>
       </section>
     </main>
