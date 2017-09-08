@@ -110,8 +110,6 @@ a {
 
 .interest-button:active{
   background-color: #503e33;
-  color: rgba;
-
 }
 
 .modal-search input:{
@@ -130,13 +128,28 @@ a {
   background-color: transparent;
   border: 2px solid #e5e5e5;
 }
-.modal-search-text::-webkit-input-placeholder{
+.modal-search-arrival::-webkit-input-placeholder{
   font-size: 14px;
   line-height: auto;
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
 }
+
+.modal-search-departure::-webkit-input-placeholder{
+  font-size: 14px;
+  line-height: auto;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+
+.modal-search-counter::-webkit-input-placeholder{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  color: #000000;
+  }
 
 .modal-search label{
   font-size: 14px;
@@ -170,7 +183,7 @@ a {
 }
 
 .footer-copyright{
-  font-size: 21px;
+  font-size: 14px;
   line-height: 26px;
   color: #000000;
   text-transform: uppercase;
@@ -178,6 +191,10 @@ a {
 
   .footer-social ul{
     list-style-type: none;
+  }
+
+  .modal-search-sign{
+
   }
 
 /*catalog*/
@@ -456,11 +473,11 @@ padding-bottom: 38px;
  .main-footer{
    display: flex;
    flex-direction: row;
-   width: 1200px;
+   width: 996px;
    min-height: 121px;
+  margin-left: 134px;
    margin: 0 auto;
-   padding: 0;
-   justify-content: center;
+  justify-content: center;
    align-items: center;
  }
 
@@ -469,11 +486,6 @@ padding-bottom: 38px;
    min-height: 48px;
    margin-right: 230px;
    margin-left: 256px;
- }
-
- .footer-copyright{
-   width: 197px;
-   min-height: 39px;
  }
 
  .interest-button{
@@ -720,13 +732,6 @@ align-content:center;
   /*padding-bottom: 10px;*/
 }
 
-
-
-/*.main-sorting-hotels p{
-  margin: 0;
-  padding-left: 0px;
-}*/
-
 .central-unit{
   margin-top: 22px;
   margin-left: 30px;
@@ -746,11 +751,6 @@ height: 90px;
   /*margin-top: 10px;*/
   align-content: flex-start;
 }
-
-/*.main-sorting-hotels-description p{
-  padding-bottom: 10px;
-  padding-right: 28px;
-}*/
 
 .main-sorting-button{
   display: flex;
@@ -809,28 +809,41 @@ input[type="radio"].visually-hidden {
   margin-left: 316px;
 }
 
+.map{
+  position: relative;
+}
+
 .modal-search-form{
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: space-between;*/
-  width: 568px;
-  /*height: 396px;*/
+  position: absolute;
+  z-index: 2;
+  width: 513px;
+  height: 340px;
   padding-left: 55px;
   padding-top: 56px;
-  background-color: gray;
+  background-color:#ffffff;
 }
 
-.modal-search-text{
+.modal-search-arrival{
   box-sizing: border-box;
   width: 346px;
   min-height: 38px;
   border: none;
   background-color: #f5f6f6;
   padding-left: 13px;
-  margin-left: 23px;
+  margin-left: 22px;
 }
 
-
+.modal-search-departure{
+  box-sizing: border-box;
+  width: 346px;
+  min-height: 38px;
+  border: none;
+  background-color: #f5f6f6;
+  padding-left: 13px;
+  margin-left: 18px;
+}
 
 .modal-search-counter{
   display: inline-block;
@@ -855,9 +868,6 @@ input[type="radio"].visually-hidden {
   border: none;
   background-color: #f5f6f6;
 margin-left: -4px;
-
-
-
 }
 
 .modal-search-button{
@@ -865,6 +875,8 @@ margin-left: -4px;
   width: 458px;
   height: 58px;
   border: none;
+  /*margin-left: 55px;*/
+  padding: 0;
 }
 
 .modal-search-children{
@@ -878,14 +890,70 @@ height: 285px;
 
 }
 
-.modal-search-adults label{
-  /*display: flex;*/
-  /*flex-direction: row;*/
-  margin-right: 42px;
-
+.modal-search-adults{
+  margin-right: 53px;
 }
 
-.gnd{
-display: flex;
-flex-direction: row;
+.modal-search-adults span{
+  margin-right: 42px;
+}
+
+
+.counter{
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-search-children span{
+  margin-right: 27px;
+}
+
+.footer-social ul{
+  display: flex;
+  width: 151px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 47px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.social-button:hover{
+  background-color: #669ec0;
+}
+
+.social-button:focus{
+  background-color: #5496bd;
+}
+
+.social-button:focus path{
+fill: #88b6d1;
+}
+
+.footer-copyright{
+  display: flex;
+  /*flex-direction: row;*/
+  align-items: center;
+  margin: 0 auto;
+}
+
+.footer-copyright a{
+  height: 41px;
+  margin-left: 8px;
+}
+
+.button{
+  color: #81b3d2;
+}
+
+.button:focus path{
+fill: #81b3d2;
 }
