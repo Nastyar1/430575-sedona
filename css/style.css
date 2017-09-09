@@ -1108,6 +1108,27 @@ height: 23px;
 margin-right: 14px;
 }
 
+.filter-checkbox label:disabled::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+background-image: url("../img/checkbox-on.svg");
+width: 23px;
+height: 23px;
+margin-right: 14px;
+}
+
+.filter-input:disabled ~ label::before{
+  background-image: url("../img/checkbox-disabled-on.svg");
+}
+.filter-input:disabled ~ label::before{
+  background-image: url("../img/checkbox-disabled-off.svg");
+}
+
+.filter-input:disabled::before {
+  color: #6a6a6a;
+}
+
 .filter-checkbox-empty input{
   display: none;
 
