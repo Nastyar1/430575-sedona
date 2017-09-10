@@ -60,6 +60,7 @@ a {
 .description-lowercase{
   font-size: 14px;
   line-height: 26px;
+  text-transform: uppercase;
 }
 
 .main-description{
@@ -460,7 +461,7 @@ a {
 .features-note-block{
   display: flex;
   flex-wrap: wrap;
-  width: 290px;
+  width: 280px;
   min-height: 146px;
   margin:0;
   justify-content: space-between;
@@ -486,13 +487,26 @@ a {
   padding:0;
 }
 
+.feature-icon-list feature-item-house{
+  display: flex;
+  width: 254px;
+
+}
+
 .feature-gallery img{
   display: block;
 }
 
 .main-description{
-  margin: 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 59px;
   padding:0;
+}
+
+.description-regular{
+  margin: 0;
+  margin-top: 29px;
 }
 
 .feature-attraction{
@@ -1101,23 +1115,16 @@ input[type="radio"].visually-hidden {
   margin-right: 14px;
 }
 
-.filter-checkbox label:disabled::before {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
+.filter-input:checked ~ label::before {
   background-image: url("../img/checkbox-on.svg");
-  width: 23px;
-  height: 23px;
-  margin-right: 14px;
-}
-
-.filter-input:disabled ~ label::before{
-  background-image: url("../img/checkbox-disabled-on.svg");
 }
 
 .filter-input:disabled ~ label::before{
   background-image: url("../img/checkbox-disabled-off.svg");
 }
+
+.filter-input:checked:disabled ~ label::before {
+  background-image: url("../img/checkbox-disabled-on.svg");
 
 .filter-input:disabled::before {
   color: #6a6a6a;
@@ -1177,4 +1184,8 @@ input[type="radio"].visually-hidden {
   background-repeat: no-repeat;
   margin: 0;
   margin-left: 6px;
+  }
+
+  .shadow{
+    box-shadow: 8px 5px 20px 15px #000101;
   }
